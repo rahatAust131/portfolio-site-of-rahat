@@ -1,0 +1,65 @@
+.about-columns {
+    min-height: 80vh;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.about-first-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.about-second-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    padding: 15px;
+}
+.about-second-column p {
+    text-align: justify;
+}
+.about-img {
+    padding: 10px;
+    background: white;
+    border: 4px solid lightgray;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px dimgray;
+}
+.about-img:hover {
+    transform: translateY(-2.25%);
+}
+.contact-btn {
+    margin: 5px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px aquamarine;
+    letter-spacing: 1px;
+}
+.contact-btn:hover {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.linkedin:hover {
+    background-color: #0072b1;
+    color: seashell;
+}
+.facebook:hover {
+    background-color: #3b5998;
+    color: seashell;
+}
+.youtube:hover {
+    color: seashell;
+    background-color: #FF0000;
+}
+.instagram:hover {
+    color: seashell;
+    background-image: linear-gradient(180deg, #8a3ab9, #fbad50, #cd486b, #4c68d7);
+}
+.github:hover {
+    color: seashell;
+    background-image: linear-gradient(180deg, #929292,dimgray);
+}

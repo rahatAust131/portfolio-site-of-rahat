@@ -16,7 +16,7 @@ import Navbar from './components/Header/Navbar/Navbar';
 function App() {
 
   return (
-    <Router>
+    <Router className="main">
         <Navbar />
         <Switch>
           <Route path="/home">
