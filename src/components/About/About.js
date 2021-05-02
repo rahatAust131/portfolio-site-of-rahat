@@ -6,7 +6,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="row g-3 ms-auto">
+        <div className="row g-3 ms-auto about-section">
             <div className="col-md-3 about-columns about-first-column">
                 <img src={myImage} className="about-img img-fluid w-75" alt="" />
             </div>
@@ -14,8 +14,7 @@ const About = () => {
                 <div className="w-100">
                     <h2>About <span className="text-brand custom-brand">Me</span></h2>
                     <h4>Hello , I am <span className="text-brand">Rahat</span> Chowdhury</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea recusandae labore reiciendis dignissimos. Officiis, at repellendus. Libero, quis eos? Accusantium nesciunt debitis nobis magnam quia!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptate harum nisi. Delectus, ea natus. Quas laudantium aspernatur rerum ducimus.</p>
+                    <p>I am not your typical WEB Developer . I have <span className="text-brand">Critical thinking</span> & <span className="text-">Creative</span> mind-set. I have worked with React-Router, JS, DOM, GitHub, Bootstrap. I have positive mind-set or <span className="text-brand">'Can Do'</span>  attitude | Can handle <span className="text-brand">challenging</span> situations with ease. I DON'T get bothered by <span className="text-brand">NEW TECHS</span> | Rather find them interesting</p>
                     <a href="https://www.linkedin.com/in/rahat-chowdhury-zisan/"><FontAwesomeIcon icon={faLinkedinIn} className="icons linkedin" /></a>
                     <a href="https://www.facebook.com/usrnm.error"><FontAwesomeIcon icon={faFacebook} className="icons facebook" /></a>
                     <a href="https://www.instagram.com/rahat__chowdhury"><FontAwesomeIcon icon={faInstagram} className="icons instagram" /></a>

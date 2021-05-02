@@ -8,8 +8,8 @@ const Header = () => {
             <div className="col-md-6 header-columns header-first-column">
                 <h2><span className="text-brand">Rahat</span> Chowdhury</h2>
                 <h3>WEB Developer | Designer</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nulla nemo expedita temporibus reiciendis voluptate vero provident, at excepturi debitis obcaecati non aperiam aliquam quasi porro iusto distinctio adipisci! Enim eligendi, nobis recusandae impedit explicabo quasi possimus suscipit qui quisquam, molestias illum eos, deleniti repellendus!</p>
-                <a href="https://drive.google.com/u/0/uc?id=17xb8QK7NORhnLaqdtu_ENnTma58pHjLV&export=download"><button className="btn btn-brand w-25">Hire Me</button></a>
+                <p>My main objective is to learn new technologies & make projects using them. To be frank, Programming, Coding or implementing what I've learnt, is what I like & I don't get tired of doing what I like to do (I think nobody does). However, I also want to increase my communication skill & network. I want to gather new experience & learn & improve myself through that experience</p>
+                <a href="https://drive.google.com/u/0/uc?id=17xb8QK7NORhnLaqdtu_ENnTma58pHjLV&export=download"><button className="btn btn-brand w-25">Download CV</button></a>
             </div>
             <div className="col-md-6 header-columns header-second-column">
                 <img src={myImage} className="header-img img-fluid" alt="" />
