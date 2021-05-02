@@ -1,5 +1,6 @@
 .about-section {
-    background: url('https://forwardforty.com/wp-content/uploads/2019/07/bg-about-3.png');
+    background: url('../../images/blurred-bg-6.jpg');
+    background-position: center;
 }
 .about-columns {
     min-height: 80vh;

@@ -22,7 +22,7 @@ const About = () => {
                     <a href="https://github.com/rahatAust131"><FontAwesomeIcon icon={faGithub} className="icons github" /></a>
                     <br />
                     <a href='https://drive.google.com/u/0/uc?id=17xb8QK7NORhnLaqdtu_ENnTma58pHjLV&export=download'><button className="btn btn-brand">Download Resume</button></a>
-                    <button className="btn contact-btn">Contact Me</button>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcRzCbcgXhxTpwsctgDxNNspJjFDbgZmvgcDGghbBmXbtwjnVgFlWWHcwcqSnPXFdwTJtBBCS"><button className="btn contact-btn">Contact Me</button></a>
                 </div>
             </div>
         </div>

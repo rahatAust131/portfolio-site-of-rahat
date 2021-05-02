@@ -1,7 +1,9 @@
 import React from 'react';
-import projectImg1 from '../../images/project1.png';
-import projectImg2 from '../../images/project2.png';
-import projectImg3 from '../../images/porject3.png';
+import loxmithProjectImg1 from '../../images/projects-screenshots/loxmith/loxmith-ss1.jpg';
+import loxmithProjectImg2 from '../../images/projects-screenshots/loxmith/loxmith-ss2.jpg';
+import loxmithProjectImg3 from '../../images/projects-screenshots/loxmith/loxmith-ss3.jpg';
+import loxmithProjectImg4 from '../../images/projects-screenshots/loxmith/loxmith-ss4.jpg';
+import loxmithProjectImg5 from '../../images/projects-screenshots/loxmith/loxmith-ss5.jpg';
 import './Projects.css';
 
 const Projects = () => {
@@ -10,6 +12,60 @@ const Projects = () => {
             <h2><span className="text-brand custom-brand">Projects</span> I have done</h2>
             <div className="col-md-4 card project-card">
                 <div className="card-body">
+                    <div className="card-top">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src={loxmithProjectImg1} class="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block m-3">
+                                        <h4 style={{ color: 'whitesmoke' }}>Preview of a small portion of The Home Page</h4>
+                                        <a href="https://loxmith-in-town.web.app/" className="btn btn-brand text-uppercase">Watch Live Project</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={loxmithProjectImg2} class="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block m-3">
+                                        <h4 style={{ color: 'whitesmoke' }}>Preview of Half of the About Section</h4>
+                                        <a href="https://loxmith-in-town.web.app/" className="btn btn-brand text-uppercase">Watch Live Here</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={loxmithProjectImg3} class="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block m-3">
+                                        <h4 style={{ color: 'whitesmoke' }}>Preview of Welcome Section</h4>
+                                        <a href="https://loxmith-in-town.web.app/" className="btn btn-brand text-uppercase">Watch Live Here</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={loxmithProjectImg4} class="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block m-3">
+                                        <h4 style={{ color: 'whitesmoke' }}>Preview of Services Section</h4>
+                                        <a href="https://loxmith-in-town.web.app/" className="btn btn-brand text-uppercase">Watch Live Here</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={loxmithProjectImg5} class="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block m-3">
+                                        <h4 style={{ color: 'whitesmoke' }}>Preview of Login Section</h4>
+                                        <a href="https://loxmith-in-town.web.app/" className="btn btn-brand text-uppercase">Watch Live Here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                     <h3 className="card-title">LockSmith In Town</h3>
                     <p className="card-text">
                         <ul>
@@ -22,52 +78,14 @@ const Projects = () => {
                             <li>Also Payment method is used when ordering a service</li>
                         </ul>
                     </p>
-                    <div className="links">
+                    <div className="as">
                         <a href="https://github.com/rahatAust131/loxmith-in-town-client">Client</a>
                         <a href="https://github.com/rahatAust131/loxmith-in-town-server">Server</a>
                         <a href="https://loxmith-in-town.web.app/">Live</a>
                     </div>
                 </div>
-                <img src={projectImg1} className="card-img-bottom img-fluid p-3 d-block w-75 m-auto" alt="..." />
             </div>
-            <div className="col-md-4 card project-card">
-                <div className="card-body">
-                    <h3 className="card-title">E Grocery BD</h3>
-                    <p className="card-text">
-                        <ul>
-                            Description :
-                            <li>React | React Router | Firebase user authentication | mongoDB | node.JS | Express</li>
-                            <li>Click on Buy Now redirects to Login Page (if  not logged in, otherwise redirect to Checkout Page) | Checkout page shows ordered product details</li>
-                            <li>Logged In user can add product in Admin page</li>
-                            <li>Also Logged in user can delete a product</li>
-                        </ul>
-                    </p>
-                    <div className="links">
-                        <a href="https://github.com/rahatAust131/e-grocery-bd-client">Client</a>
-                        <a href="https://github.com/rahatAust131/e-grocery-bd-server">Server</a>
-                        <a href="https://loxmith-in-town.web.app/">Live</a>
-                    </div>
-                </div>
-                <img src={projectImg2} className="card-img-bottom img-fluid p-3 d-block w-75 m-auto" alt="..." />
-            </div>
-            <div className="col-md-4 card project-card">
-                <div className="card-body">
-                    <h3 className="card-title">EPL Soccer League</h3>
-                    <p className="card-text">
-                        <ul>
-                            Description :
-                            <li>React | React Router | Firebase user authentication | mongoDB | node.JS | express</li>
-                            <li>Used React Hooks to load data and set data | <a href="https://thesportsdb.com/api.php">API</a> used</li>
-                            <li>Click on Explore button enables the dynamic routing to navigate to another page | That page shows details related to the team which clicked</li>
-                        </ul>
-                    </p>
-                    <div className="links">
-                        <a href="https://github.com/rahatAust131/epl-soccer-league">Code</a>
-                        <a href="https://epl-soccer-league.netlify.app">Live</a>
-                    </div>
-                </div>
-                <img src={projectImg3} className="card-img-bottom img-fluid p-3 d-block w-75 m-auto" alt="..." />
-            </div>
+
         </div>
     );
 };
