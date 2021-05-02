@@ -11,12 +11,13 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
+import Navbar from './components/Header/Navbar/Navbar';
 
 function App() {
 
   return (
     <Router>
-      <div>
+        <Navbar />
         <Switch>
           <Route path="/home">
             <Home />
@@ -40,7 +41,6 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
     </Router>
   );
 }
