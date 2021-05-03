@@ -3,7 +3,8 @@ nav {
     font-weight: 500;
 }
 .navbar {
-    background: url('../../../images/blog-bg.jpg');
+    background: url('../../../images/backgrounds/bg2.jpg');
+    background-position: center;
     min-height: 10vh;
     text-align: center;
 }

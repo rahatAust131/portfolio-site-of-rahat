@@ -1,0 +1,11 @@
+.less-weihted-text {
+    font-weight: 300;
+}
+.certificate-card-footer {
+    background: none;
+    border: none;
+}
+.certificate-card-body {
+    background-image: linear-gradient(45deg, darkcyan, darkgreen);
+    color: whitesmoke;
+}

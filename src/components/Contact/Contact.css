@@ -1,7 +1,8 @@
 .form-container {
-    background-image: url('../../images/Contact-form-bg.jpg');
+    background-image: url('../../images/backgrounds/Contact-form-bg.jpg');
     width: 75%;
     min-height: 70vh;
+    border-radius: 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;

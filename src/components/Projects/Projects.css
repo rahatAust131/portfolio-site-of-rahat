@@ -1,8 +1,8 @@
 .project-card {
-    border: 1px solid red;
+    background-color: dimgray;
+    color: floralwhite;
 }
 .links {
-    border: 1px solid violet;
     min-height: 10vh;
     display: flex;
     align-items: center;

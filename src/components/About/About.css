@@ -1,6 +1,8 @@
 .about-section {
-    background: url('../../images/blurred-bg-6.jpg');
+    background: url('https://image.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg');
     background-position: center;
+    
+    color: whitesmoke;
 }
 .about-columns {
     min-height: 80vh;
@@ -23,16 +25,18 @@
 }
 .about-second-column p {
     text-align: justify;
+    color: seashell;
 }
 .about-img {
     padding: 10px;
     background: white;
-    border: 4px solid lightgray;
-    border-radius: 7px;
-    box-shadow: 1px 1px 5px dimgray;
+    
 }
 .about-img:hover {
     transform: translateY(-2.25%);
+    border: 4px solid lightgray;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px salmon;
 }
 .contact-btn {
     margin: 5px;
@@ -40,12 +44,14 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
+    color: snow;
     box-shadow: 1px 1px 10px aquamarine;
     letter-spacing: 1px;
 }
 .contact-btn:hover {
-    background-color: dimgray;
-    color: whitesmoke;
+    box-shadow: 1px 1px 10px hotpink;
+    background-color: chartreuse;
+    color: black;
 }
 .linkedin:hover {
     background-color: #0072b1;
