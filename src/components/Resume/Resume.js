@@ -8,22 +8,44 @@ import cPlusPlusCertificate from '../../images/certificates/CPlusPlus_certificat
 
 const Resume = () => {
     return (
-        <div className="side-space">
-            <div clasName="mt-3">
-                <h2 className="text-brand custom-brand ">EXPERIENCE</h2>
+        <div className="side-space mt-3">
+            <h1 className="text-uppercase text-center bg-light">Resume</h1>
+            <div clasName="mt-3 p-3">
+                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>EXPERIENCE</h2>
                 <ul>
-                    <li><h4>Programming Hero |</h4><span className='less-weighted-text'>Online | WEB Development | December 2020 - PRESENT</span></li>
+                    <li>
+                        <div className="row g-3">
+                            <div className="col-md-6"><h4>Programming Hero</h4></div>
+                            <div className="col-md-6">
+                                <span className="">Online | WEB Development | December 2020 - PRESENT</span>
+                            </div>
+                        </div>
+                    </li>
                     <ul>
                         <li>HTML, CSS, JavaScript | Many front-end websites</li>
                         <li>React, Node.JS, Express, MongoDB, Firebase | A few full-stack projects</li>
                     </ul>
-                    <li><h4>Academic Project | <span className='less-weighted-text'>Tejgaon, Dhaka | Group Project | June 2019 - October 2019</span></h4></li>
-                    <ul>
-                        <li>Created a mini game using C Language. </li>
-                        <li>Technologies/Tools used : iGraphics, VS 2010</li>
-                        <li>Here is the game-play review <a href="https://youtu.be/0EyQrlrYgOM">video</a></li>
-                    </ul>
-                    <li><h4>The ALPHA Team | <span className='less-weighted-text'>Mirpur, Dhaka | Volunteer Work | 	26/02/2021 & 08/03/2021</span></h4></li>
+                    <li>
+                        <div className="row g-3">
+                            <div className="col-md-6"><h4>Academic Project</h4></div>
+                            <div className="col-md-6">
+                                <span className="">Tejgaon, Dhaka | Group Project | June 2019 - October 2019</span>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Created a mini game using C Language. </li>
+                            <li>Technologies/Tools used : iGraphics, VS 2010</li>
+                            <li>Here is the game-play review <a href="https://youtu.be/0EyQrlrYgOM">video</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div className="row g-3">
+                            <div className="col-md-6"><h4>The Alpha Team</h4></div>
+                            <div className="col-md-6">
+                                <span className="">Mirpur, Dhaka | Volunteer Work | 26/02/2021 & 08/03/2021 </span>
+                            </div>
+                        </div>
+                    </li>
                     <ul>
                         <li>It was a one day event | The task was to provide service door to door</li>
                         <li>Delivery of Gift pack on the first time and Lunch pack on the second time</li>
@@ -34,8 +56,9 @@ const Resume = () => {
                     </ul>
                 </ul>
             </div>
-            <div clasName="mt-3">
-                <h2 className="text-brand custom-brand ">Awards / Certificates</h2>
+            <hr />
+            <div clasName="mt-3 p-3">
+                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>Awards / Certificates</h2>
                 <div className="row g-3 container-fluid m-auto">
                     <div className="col-md-6">
                         <div className="card h-100">
@@ -86,6 +109,13 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <h2 className="text-brand">Programming Skill Set</h2>
+                <ul>
+                    <li>Solved 200+ Problems on C Language in <a href="https://www.urionlinejudge.com/">URI</a> | 10+ Problems on <a href="https://onlinejudge.org/">UVA</a> | 20+ Problems on <a href="https://www.hackerrank.com/">HackerRank</a></li>
+                    <li>Preferred Language : C, C++, JavaScript</li>
+                </ul>
             </div>
         </div>
     );
