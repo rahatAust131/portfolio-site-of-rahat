@@ -5,13 +5,15 @@ import htmlCertificate from '../../images/certificates/HTML_certificate.jpg';
 import javaCertificate from '../../images/certificates/Java_certificate.jpg';
 import cCertificate from '../../images/certificates/C_certificate.jpg';
 import cPlusPlusCertificate from '../../images/certificates/CPlusPlus_certificate.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Resume = () => {
     return (
-        <div className="side-space mt-3">
-            <h1 className="text-uppercase text-center bg-light">Resume</h1>
-            <div clasName="mt-3 p-3">
-                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>EXPERIENCE</h2>
+        <div className="side-space mt-3 mb-3 resume-container">
+            <h1 className="text-uppercase text-center">Resume</h1>
+            <div clasName="mt-3 mb-3 p-3">
+                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon', margin: '0 15px', padding: '5px' }}>Experience</h2>
                 <ul>
                     <li>
                         <div className="row g-3">
@@ -57,9 +59,9 @@ const Resume = () => {
                 </ul>
             </div>
             <hr />
-            <div clasName="mt-3 p-3">
-                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>Awards / Certificates</h2>
+            <div clasName="mt-3 mb-3 p-3">
                 <div className="row g-3 container-fluid m-auto">
+                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>Awards / Certificates</h2>
                     <div className="col-md-6">
                         <div className="card h-100">
                             <img className="card-img-top img-fluid" src={htmlCertificate} alt="..." />
@@ -110,13 +112,26 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <h2 className="text-brand">Programming Skill Set</h2>
+            <hr/>
+            <div className="mt-3 mb-3 p-3 row g-3">
+            <div className="col-md-6">
+                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>Programming Skill Set</h2>
                 <ul>
                     <li>Solved 200+ Problems on C Language in <a href="https://www.urionlinejudge.com/">URI</a> | 10+ Problems on <a href="https://onlinejudge.org/">UVA</a> | 20+ Problems on <a href="https://www.hackerrank.com/">HackerRank</a></li>
                     <li>Preferred Language : C, C++, JavaScript</li>
                 </ul>
             </div>
+            <div className="col-md-6">
+                <h2 className="text-brand" style={{ borderLeft: '3px solid salmon' }}>Education</h2>
+                <h4>Ahsanullah University of Science & Technology</h4>
+                <div className="row g-3">
+                    <div className="col-md-6">BSc. in Computer Science Engineering</div>
+                    <div className="col-md-6">July 2018 - Present</div>
+                    <p>Currently studying here | C, Java(basic), C++(basic), Data Structure, Algorithm</p>
+                </div>
+            </div>
+            </div>
+            <a href="https://drive.google.com/u/0/uc?id=17xb8QK7NORhnLaqdtu_ENnTma58pHjLV&export=download"><button className="btn btn-brand w-50 d-block m-auto"><FontAwesomeIcon icon={faDownload} /> Download Full Resume</button></a>
         </div>
     );
 };

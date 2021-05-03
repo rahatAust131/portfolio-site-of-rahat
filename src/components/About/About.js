@@ -7,7 +7,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="side-space mt-3">
+        <div className="side-space mt-3 mb-3">
             <div className="row g-3 m-auto about-section">
                 <div className="col-md-3 about-columns about-first-column">
                     <img src={myImage} className="about-img img-fluid w-75" alt="" />

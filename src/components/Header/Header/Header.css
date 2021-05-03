@@ -15,7 +15,7 @@
     padding-left: 45px;
     padding-right: 25px;
 }
-.header-first-column h2, h3, p {
+.header-first-column h2, h4, p {
     padding: 5px;
 }
 .header-first-column h2 {
@@ -23,8 +23,8 @@
     letter-spacing: 3px;
     
 }
-.header-first-column h3 {
-    font-size: 35px;
+.header-first-column h4 {
+    font-size: 25px;
     color: #ab7fab;
 }
 .header-first-column p {
